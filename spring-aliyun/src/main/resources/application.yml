@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+sms:
+  aliyun:
+    endpoint: oss-cn-chengdu.aliyuncs.com
+    bucketName: edu-liuchao
+    accessKeyId: LTAI4G6nbXhZuEfz4jjGnhE5
+    accessSecret: o4gojeDoqjoEEyLW8DIpFrvzxYbNZT
+spring:
+  redis:
+    host: 192.168.56.10
+    database: 0
+    port: 6379
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
